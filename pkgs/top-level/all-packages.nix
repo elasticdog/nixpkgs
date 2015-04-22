@@ -11077,6 +11077,8 @@ let
 
   inferno = callPackage_i686 ../applications/inferno { };
 
+  interrobang = callPackage ../applications/misc/interrobang { };
+
   inkscape = callPackage ../applications/graphics/inkscape {
     inherit (pythonPackages) lxml;
     lcms = lcms2;
